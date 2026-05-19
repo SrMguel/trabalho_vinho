@@ -1,0 +1,177 @@
+/* corpo da página */
+body{
+
+    /* imagem de fundo */
+    background-image: url("garradadocadastro.avif");
+
+    /* imagem ocupa tudo */
+    background-size: cover;
+
+    /* centraliza */
+    background-position: center;
+
+    /* altura */
+    height: 100vh;
+
+    /* centralizar formulário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* fonte */
+    font-family: Arial;
+
+}
+
+/* caixa do formulário */
+.cadastro{
+
+    background-color: rgba(255,255,255,0.85);
+
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+}
+
+/* título */
+h1{
+
+    text-align: center;
+
+    color: darkred;
+
+    margin-bottom: 10px;
+
+}
+
+/* subtítulo */
+p{
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+/* labels */
+label{
+
+    display: block;
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+    color: darkred;
+
+}
+
+/* inputs */
+input{
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+/* caixa dos termos */
+.termos{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+/* checkbox */
+.termos input{
+
+    width: auto;
+
+}
+
+/* texto termos */
+.termos span{
+
+    font-size: 13px;
+
+}
+
+/* botão principal */
+button{
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: darkred;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+}
+
+/* linha do "ou" */
+.linha{
+
+    text-align: center;
+
+    margin: 20px 0;
+
+    color: gray;
+
+}
+
+/* botão google */
+.google{
+
+    background-color: white;
+
+    color: black;
+
+    border: 1px solid #ccc;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+/* imagem google */
+.google img{
+    
+    width: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
