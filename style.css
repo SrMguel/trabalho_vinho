@@ -1,29 +1,28 @@
-/* corpo da página */
 body{
 
-    /* imagem de fundo */
-    background-image: url("garradadocadastro.avif");
+    
+    background-image: url("vinhopngreal.png");
 
-    /* imagem ocupa tudo */
-    background-size: cover;
+    
+    background-size: 69%;
 
-    /* centraliza */
+    
     background-position: center;
 
-    /* altura */
+    
     height: 100vh;
 
-    /* centralizar formulário */
+    
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* fonte */
+    
     font-family: Arial;
 
 }
 
-/* caixa do formulário */
+
 .cadastro{
 
     background-color: rgba(255,255,255,0.85);
@@ -36,18 +35,18 @@ body{
 
 }
 
-/* título */
+
 h1{
 
     text-align: center;
 
-    color: darkred;
+    color: #760b15;
 
     margin-bottom: 10px;
 
 }
 
-/* subtítulo */
+
 p{
 
     text-align: center;
@@ -56,7 +55,7 @@ p{
 
 }
 
-/* labels */
+
 label{
 
     display: block;
@@ -65,11 +64,11 @@ label{
 
     margin-bottom: 5px;
 
-    color: darkred;
+    color: #760b15;
 
 }
 
-/* inputs */
+
 input{
 
     width: 100%;
@@ -84,7 +83,7 @@ input{
 
 }
 
-/* caixa dos termos */
+
 .termos{
 
     display: flex;
@@ -99,28 +98,28 @@ input{
 
 }
 
-/* checkbox */
+
 .termos input{
 
     width: auto;
 
 }
 
-/* texto termos */
+
 .termos span{
 
     font-size: 13px;
 
 }
 
-/* botão principal */
+
 button{
 
     width: 100%;
 
     padding: 12px;
 
-    background-color: darkred;
+    background-color: #760b15;
 
     color: white;
 
@@ -134,7 +133,7 @@ button{
 
 }
 
-/* linha do "ou" */
+
 .linha{
 
     text-align: center;
@@ -145,7 +144,7 @@ button{
 
 }
 
-/* botão google */
+
 .google{
 
     background-color: white;
@@ -164,7 +163,7 @@ button{
 
 }
 
-/* imagem google */
+
 .google img{
     
     width: 20px;
